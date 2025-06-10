@@ -10,7 +10,7 @@ int main(){
 //Variaveis do Programa
 
 //Variaveis de peças
-int torre = 1, bispo = 1, rainha; //varivael (Torre recebe valor 1), (Bispo recebe valor 1). 
+int torre = 1, bispo = 1, rainha, movimento1Cavalo = 1, movimento2Cavalo; //varivael (Torre recebe valor 1), (Bispo recebe valor 1). 
 
 
 
@@ -50,7 +50,7 @@ while (torre <= 5) //estrutura de repetição.
 
 //linha diferencial para console 
 printf("============================ \n");
-//Mostra que a torre vai movimentar
+//Mostra que o bispo vai movimentar
 printf("Movimento do Bispo \n");
 //linha diferencial para console 
 printf("============================ \n");
@@ -106,6 +106,41 @@ for (rainha = 1; rainha <= 8; rainha++)
     
 }
 
+
+
+
+
+
+
+
+//linha diferencial para console 
+printf("============================ \n");
+//Mostra que o Cavalo vai movimentar
+printf("Movimento do Cavalo \n");
+//linha diferencial para console 
+printf("============================ \n");
+
+
+
+
+
+
+
+
+//Logica de movimentação
+
+while (movimento1Cavalo--)
+{
+    for (movimento2Cavalo = 0; movimento2Cavalo < 2; movimento2Cavalo++)
+    {
+        
+        printf("Baixo \n");
+    }
+    
+    printf("esquerda \n");
+
+
+}
 
 
 
